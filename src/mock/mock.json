@@ -1,0 +1,57 @@
+{
+  "sponsorItems": [
+    {
+      "id": "sponsor_1",
+      "item": {
+        "title": "Adidas",
+        "subtitle": "Main Sponsor",
+        "image": "https://reactnative.dev/img/tiny_logo.png",
+        "style": {
+          "backgroundColor": "#3943D2",
+          "borderColor": "#fff"
+        },
+        "textStyle":{
+          "color": "#fff"
+          
+        }
+      },
+      "descriptionItem": {
+        "text": "Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet.",
+        "style": {
+          "backgroundColor": "#aaa",
+          "borderColor": "#fff"
+        },
+        "textStyle":{
+          "color": "#fff"
+        }
+      }
+    },
+    {
+      "id": "sponsor_2",
+      "item": {
+        "title": "Adidas",
+        "subtitle": "Main Sponsor",
+        "image": "https://reactnative.dev/img/tiny_logo.png",
+        "style": {
+          "backgroundColor": "red",
+          "borderColor": "#fff"
+        },
+        "textStyle":{
+          "color": "#fff"
+        }
+      },
+      "descriptionItem": {
+        "text": "Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet.",
+        "style": {
+          "backgroundColor": "#aaa",
+          "borderColor": "#fff"
+        },
+        "textStyle":{
+          "color": "#a67"
+        }
+      }
+    }
+
+
+  ]
+}

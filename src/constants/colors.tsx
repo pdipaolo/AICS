@@ -1,4 +1,6 @@
 const activeTintColor = "blue";
 const inactiveTintColor = "grey";
 
-export { activeTintColor, inactiveTintColor }
+const grey  = "#bbb";
+
+export { activeTintColor, inactiveTintColor, grey}

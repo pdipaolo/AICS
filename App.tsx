@@ -8,7 +8,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import Home from './src/containers/Home';
-import Torneo from './src/containers/Torneo';
+import Sponsor from './src/containers/Sponsor';
 import Classifica from './src/containers/Classifica';
 import Campi from './src/containers/Campi';
 import Info from './src/containers/Info';
@@ -53,7 +53,7 @@ const App = () => {
         })}
       >
         <Tab.Screen name="Home" component={Home} />
-        <Tab.Screen name="Torneo" component={Torneo} />
+        <Tab.Screen name="Sponsor" component={Sponsor} />
         <Tab.Screen name="Classifica" component={Classifica} />
         <Tab.Screen name="Campi" component={Campi} />
         <Tab.Screen name="Info" component={Info} />
