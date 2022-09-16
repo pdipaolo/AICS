@@ -9,7 +9,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import Home from './src/containers/Home';
 import Torneo from './src/containers/Torneo';
-import Classifica from './src/containers/Classifica';
+import Ranking from './src/containers/Ranking';
 import Campi from './src/containers/Campi';
 import Info from './src/containers/Info';
 
@@ -32,7 +32,7 @@ const App = () => {
           //       return <HomeIcon width={26} height={26} fill={color} />
           //     case ROUTE.TORNEO:
           //       return <HomeIcon width={26} height={26} fill={color} />
-          //     case ROUTE.CLASSIFICA:
+          //     case ROUTE.RANKING:
           //       return <HomeIcon width={26} height={26} fill={color} />
           //     case ROUTE.CAMPI:
           //       return <HomeIcon width={26} height={26} fill={color} />
@@ -54,7 +54,7 @@ const App = () => {
       >
         <Tab.Screen name="Home" component={Home} />
         <Tab.Screen name="Torneo" component={Torneo} />
-        <Tab.Screen name="Classifica" component={Classifica} />
+        <Tab.Screen name="Ranking" component={Ranking} />
         <Tab.Screen name="Campi" component={Campi} />
         <Tab.Screen name="Info" component={Info} />
       </Tab.Navigator>

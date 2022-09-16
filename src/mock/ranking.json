@@ -1,0 +1,91 @@
+{
+  "ranking": [
+    {
+      "id":"id_1",
+      "name": "Squadra 1",
+      "total_match": 5,
+      "points": 10,
+      "gol_scores": 10,
+      "gol_conceded": 10 
+    },
+    {
+      "id":"id_2",
+      "name": "Squadra 2",
+      "total_match": 5,
+      "points": 10,
+      "gol_scores": 10,
+      "gol_conceded": 10 
+    },
+    {
+      "id":"id_3",
+      "name": "Squadra 3",
+      "total_match": 5,
+      "points": 10,
+      "gol_scores": 10,
+      "gol_conceded": 10 
+    },
+    {
+      "id":"4",
+      "name": "Squadra 4",
+      "total_match": 5,
+      "points": 10,
+      "gol_scores": 10,
+      "gol_conceded": 10 
+    },
+    {
+      "id":"id_5",
+      "name": "Squadra 5",
+      "total_match": 5,
+      "points": 10,
+      "gol_scores": 10,
+      "gol_conceded": 10 
+    },
+    {
+      "id":"id_6",
+      "name": "Squadra 6",
+      "total_match": 5,
+      "points": 10,
+      "gol_scores": 10,
+      "gol_conceded": 10 
+    },
+    {
+      "id":"id_7",
+      "name": "Squadra 7",
+      "total_match": 5,
+      "points": 10,
+      "gol_scores": 10,
+      "gol_conceded": 10 
+    },
+    {
+      "id":"id_8",
+      "name": "Squadra 8",
+      "total_match": 5,
+      "points": 10,
+      "gol_scores": 10,
+      "gol_conceded": 10 
+    },
+    {
+      "id":"id_9",
+      "name": "Squadra 9",
+      "total_match": 5,
+      "points": 10,
+      "gol_scores": 10,
+      "gol_conceded": 10 
+    },
+    {
+      "id":"id_10",
+      "name": "Squadra 10",
+      "total_match": 5,
+      "points": 10,
+      "gol_scores": 10,
+      "gol_conceded": 10 
+    },
+    {
+      "id":"id_11",
+      "name": "Squadra 11",
+      "total_match": 5,
+      "points": 10,
+      "gol_scores": 10,
+      "gol_conceded": 10 
+    }
+]}
