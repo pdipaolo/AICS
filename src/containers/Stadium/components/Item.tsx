@@ -1,5 +1,5 @@
 import React from "react";
-import { TouchableWithoutFeedback, View, Text, Platform, Linking } from "react-native";
+import { TouchableWithoutFeedback, View, Text, Platform, Linking, Alert } from "react-native";
 
 import {getImage, ImageType} from "../../../utils/getImage";
 
@@ -8,11 +8,30 @@ import ItemStadium from "../types";
 import styles from "./styles";
 function Item (props : ItemStadium & {index: number}){
   const {index, name, description, lat, lng} = props;
-  var scheme = Platform.OS === 'ios' ? 'maps:' : 'geo:';
-  var url = scheme + `${lat},${lng}`;
-  // TODO fare alert
+  const scheme = Platform.select({ ios: 'maps:0,0?q=', android: 'geo:0,0?q=' });
+  const latLng = `${lat},${lng}`;
+  const label = 'Stadio';
+  const url = Platform.select({
+    ios: `${scheme}${label}@${latLng}`,
+    android: `${scheme}${latLng}(${label})`
+  });
+  
+  const mapsAlert = () => {
+    Alert.alert(
+      "Vuoi avviare la navigazione?",
+      "Verrà aperta l'applicazione per la navigazione impostando il campo selezionato comedestinazione.",
+      [
+        {
+          text: "Annulla",
+          style: "cancel"
+        },
+        { text: "Avvia GPS", onPress: () => Linking.openURL(url) }
+      ]
+    );
+  }
+
   return (
-  <TouchableWithoutFeedback onPress={()=> Linking.openURL(url)}>
+  <TouchableWithoutFeedback onPress={mapsAlert}>
     <View style={styles.container}>
       <View style={styles.image}>
         {getImage(ImageType.Dream_1)}
