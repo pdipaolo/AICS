@@ -11,10 +11,10 @@ function Item (props : ItemStadium & {index: number}){
   const scheme = Platform.select({ ios: 'maps:0,0?q=', android: 'geo:0,0?q=' });
   const latLng = `${lat},${lng}`;
   const label = 'Stadio';
-  const url = Platform.select({
+  const url: string = Platform.select({
     ios: `${scheme}${label}@${latLng}`,
     android: `${scheme}${latLng}(${label})`
-  });
+  }) || '' ;
   
   const mapsAlert = () => {
     Alert.alert(
