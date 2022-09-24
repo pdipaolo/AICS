@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text } from "react-native";
+import {getImage, ImageType} from "../../../utils/getImage";
 import { ItemPropsType } from "../type";
 import itemStyle from "./styles";
 
@@ -8,14 +9,16 @@ function Item (props: ItemPropsType){
   
   return <View style={itemStyle.container}>
           <Text style={{flex: 10, fontWeight: 'bold'}}>{index+1}</Text>
-          <>
-            {/* TODO: inserire immagine */}
-            <Text style={{flex: 50}}>{name}</Text>
-          </>
+          <View style={{flex: 50, flexDirection: 'row', alignItems: 'center'}}>
+            <View style={{height:40, width: 80}}>
+            {getImage(ImageType.Dream_1)}
+            </View>
+            <Text >{name}</Text>
+          </View>
           <Text style={{flex: 10}}>{total_match}</Text>
-          <Text style={{flex: 10}}>{points}</Text>
           <Text style={{flex: 10}}>{gol_scores}</Text>
-          <Text style={{flex: 10, fontWeight: 'bold'}}>{gol_conceded}</Text>
+          <Text style={{flex: 10}}>{gol_conceded}</Text>
+          <Text style={{flex: 10, fontWeight: 'bold'}}>{points}</Text>
         </View>
 };
 
