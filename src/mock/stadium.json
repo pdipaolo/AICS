@@ -1,0 +1,18 @@
+{"stadium": [
+  {
+    "id": "stadium_1",
+    "name": "Partenope",
+    "description": "Campo Denza Via Posillipo 29",
+    "lat": "40.80045251352664",
+    "lng": "14.187075528912235",
+    "iamge": ""
+  },
+  {
+    "id": "stadium2",
+    "name": "Partenope",
+    "description": "Campo Denza Via Posillipo 29",
+    "lat": "40.80045251352664",
+    "lng": "14.187075528912235",
+    "iamge": ""
+  }
+]}

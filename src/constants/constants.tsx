@@ -2,7 +2,7 @@ const ROUTE = {
     HOME: "Home",
     TORNEO: "Torneo",
     RANKING: "Ranking",
-    CAMPI: "Campi",
+    STADIUM: "Stadium",
     INFO: "Info",
 };
 
