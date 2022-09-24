@@ -2,9 +2,18 @@
 {
   "extends": "@tsconfig/react-native/tsconfig.json",     /* Recommended React Native TSConfig base */
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      // Components is a directory with sub directories
+      "assets/*": ["src/assets/*"],
+      "constants/*": ["src/constants/*"],
+      "containers/*": ["src/containers/*"],
+      "mock/*": ["src/mock/*"],
+      "utils/*": ["src/utils/*"]
+    },
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
     /* Completeness */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+  },
 }
