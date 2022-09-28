@@ -35,7 +35,6 @@ const sponsorItemStyle = StyleSheet.create({
     width: 120,
     borderColor: '#fff',
     borderWidth: 2,
-    backgroundColor: 'red',
   },
   rightView:{
     display: 'flex',

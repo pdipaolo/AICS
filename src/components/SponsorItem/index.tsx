@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, Image } from "react-native";
+import YoutubePlayer from 'react-native-youtube-iframe';
 import { createStyle } from "../../utils/utils";
 import { sponsorItemStyle, sponsorSubItemStyle, sponsorStyle } from "./styles";
 import { SponsorProps } from "./type";
@@ -17,7 +18,13 @@ function SponsorItem(props: SponsorProps){
 
   return <View style={sponsorStyle.container} >
           <View style={createStyle([itemStyle, containerItem])}>
-            <View style={sponsorItemStyle.leftView} />
+            <View style={sponsorItemStyle.leftView}>
+            <YoutubePlayer
+              height={100}
+              play={false}
+              videoId={'lw069r6Z6H8'}
+            />
+            </View>
             <View style={sponsorItemStyle.rightView}>
               <Text style={createStyle([textItem,  itemTextStyle])}>{title}</Text>
               <Image 
