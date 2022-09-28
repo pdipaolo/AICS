@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     borderBottomColor:  grey,
     borderBottomWidth: 1,
     borderTopColor:  grey,
-    borderTopWidth: 1
+    borderTopWidth: 1,
   },
   subContainer: {
     display: 'flex',
@@ -25,7 +25,9 @@ const styles = StyleSheet.create({
     fontSize: 16,
     flex: 60,
     flexWrap: 'wrap',
-    textAlign: 'left'
+    textAlign: 'left',
+    color: black,
+    fontWeight: 'bold'
   },
   subText: {
     fontSize: 9,
@@ -33,11 +35,12 @@ const styles = StyleSheet.create({
     textAlign: 'right',
     alignSelf: 'flex-end',
     width: '75%',
+    color: black,
   },
   button: {
     width: 32,
     height: 32,
-    backgroundColor: 'black',
+    backgroundColor: black,
     borderRadius: 16,
     margin: 8,
     display:'flex',

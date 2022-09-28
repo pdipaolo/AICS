@@ -1,13 +1,27 @@
 import React from "react";
-import { Linking, Text, TouchableWithoutFeedback, View } from "react-native";
-
+import { Linking, Text, TouchableWithoutFeedback, View, Alert } from "react-native";
 import ItemProps from "./types";
 import styles from "./styles";
 import { getImage, ImageType } from "../../../../utils/getImage";
 
-function ItemReference (props: ItemProps) {
 
+function ItemReference (props: ItemProps) {
   const {name, reference, number, email, description } = props;
+
+  const callNumber = () => {
+    Alert.alert(
+      `Chiama ${name}?`,
+      `Cliccando "Chiama" verrà avviata una chiamata verso ${name} attraverso il telefono.`,
+      [
+        {
+          text: "Annulla",
+          style: "cancel"
+        },
+        { text: "Chiama", onPress: () => Linking.openURL(`tel:${number}`) }
+      ]
+    );
+  };
+
   return(
     <View style={styles.container}>
       <View style={styles.subContainer}>
@@ -17,7 +31,7 @@ function ItemReference (props: ItemProps) {
         </View>
 
         {number && 
-          <TouchableWithoutFeedback onPress={()=> Linking.openURL(`tel:${number}`)}>
+          <TouchableWithoutFeedback onPress={callNumber}>
             <View style={styles.button}>
               {getImage(ImageType.Phone)}
             </View>
