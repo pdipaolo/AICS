@@ -6,7 +6,7 @@ import {
 
 import Item from './Item/item';
 import Header from './components/Header/header';
-import  { ItemType } from './type';
+import  { ItemType } from './types';
 import ranking_mock from '../../mock/ranking.json';
 import styles from './styles';
 
