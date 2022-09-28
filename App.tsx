@@ -15,6 +15,7 @@ import Info from './src/containers/Info';
 
 import { activeTintColor, inactiveTintColor} from './src/constants/colors';
 import { ROUTE } from './src/constants/constants';
+import { getImage, ImageType } from './src/utils/getImage';
 
 const Tab = createBottomTabNavigator();
 
@@ -42,6 +43,7 @@ const App = () => {
           //       break;
           //   }
           // },
+            headerTitle: route.name === ROUTE.HOME ? (() => getImage(ImageType.Logo_1)) : undefined,
             tabBarActiveTintColor: activeTintColor,
             tabBarInactiveTintColor: inactiveTintColor,
             tabBarStyle: [

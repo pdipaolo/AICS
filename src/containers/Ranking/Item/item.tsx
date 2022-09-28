@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text } from "react-native";
 import {getImage, ImageType} from "../../../utils/getImage";
-import { ItemPropsType } from "../type";
+import { ItemPropsType } from "../types";
 import itemStyle from "./styles";
 
 function Item (props: ItemPropsType){
