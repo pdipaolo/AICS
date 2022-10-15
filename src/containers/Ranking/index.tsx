@@ -4,11 +4,12 @@ import {
   View
 } from 'react-native';
 
-import Item from './Item/item';
+import Item from './components/Item/item';
 import Header from './components/Header/header';
 import  { ItemType } from './types';
 import ranking_mock from '../../mock/ranking.json';
 import styles from './styles';
+import globalStyles from '../../../src/globalStyles/globalStyles';
 
 const Ranking = () => {
   const {ranking} = ranking_mock;
@@ -20,6 +21,7 @@ const Ranking = () => {
 
   return (
       <FlatList 
+        style={globalStyles.view}
         data={sortRanking}
         renderItem={ render }
         keyExtractor={item => item.id}

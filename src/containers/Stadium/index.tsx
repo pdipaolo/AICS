@@ -7,6 +7,7 @@ import {
 import Item from './components/Item';
 import ItemStadium from './types';
 
+import globalStyles from '../../../src/globalStyles/globalStyles';
 import styles from './styles';
 
 import MockStadium from '../../mock/stadium.json';
@@ -20,7 +21,8 @@ const render = ( { item, index }: { item: ItemStadium, index: number }) => {
 };
 
   return (
-    <FlatList 
+    <FlatList
+    style={globalStyles.view}
     data={stadium}
     renderItem={ render }
     keyExtractor={item => item.id}

@@ -36,7 +36,6 @@ const Home = () => {
         <View style={styles.hLine}/>
         <View style={styles.image}>{getImage(ImageType[selected[1]])}</View>
       </View>
-      <View style={styles.vLine}/>
     </ScrollView>
   );
 }; 

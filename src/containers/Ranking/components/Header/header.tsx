@@ -4,12 +4,12 @@ import { View, Text } from "react-native";
 import headerStyle from "./styles";
 function Header() {
   return <View style={headerStyle.container} >
-    <Text style={{flex: 10}}>Pos</Text>
-    <Text style={{flex: 50, position: 'relative', left: 20}}>Club</Text>
-    <Text style={{flex: 10}}>PT</Text>
-    <Text style={{flex: 10}}>GF</Text>
-    <Text style={{flex: 10}}>GS</Text>
-    <Text style={{flex: 10}}>PTs</Text>
+    <Text style={headerStyle.flex}>Pos</Text>
+    <Text style={headerStyle.text}>Club</Text>
+    <Text style={headerStyle.flex}>PT</Text>
+    <Text style={headerStyle.flex}>GF</Text>
+    <Text style={headerStyle.flex}>GS</Text>
+    <Text style={headerStyle.flex}>PTs</Text>
     </View>
 };
 

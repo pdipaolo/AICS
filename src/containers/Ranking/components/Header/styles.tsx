@@ -13,6 +13,14 @@ const headerStyle = StyleSheet.create({
     alignContent: "center",
     alignItems: "center"
   },
+  text: {
+    flex: 50,
+    position: 'relative',
+    left: 20
+  },
+  flex: {
+    flex: 10
+  }
 })
 
 export default headerStyle;

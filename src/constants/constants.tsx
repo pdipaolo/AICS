@@ -1,6 +1,6 @@
 const ROUTE = {
     HOME: "Home",
-    TORNEO: "Torneo",
+    SPONSOR: "Sponsor",
     RANKING: "Ranking",
     STADIUM: "Stadium",
     INFO: "Info",
