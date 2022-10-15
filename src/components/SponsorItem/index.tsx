@@ -22,7 +22,7 @@ function SponsorItem(props: SponsorProps){
             <YoutubePlayer
               height={100}
               play={false}
-              videoId={'lw069r6Z6H8'}
+              videoId={''}
             />
             </View>
             <View style={sponsorItemStyle.rightView}>
