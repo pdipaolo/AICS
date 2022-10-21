@@ -6,7 +6,6 @@ import {
   Dimensions
 } from 'react-native';
 import YoutubePlayer from 'react-native-youtube-iframe';
-import { getImage, ImageType } from '../../utils/getImage';
 
 import PLAYERS from './constants';
 import globalStyles from '../../globalStyles/globalStyles';
@@ -26,15 +25,22 @@ const Home = () => {
           width={windowWidth}
           height={180}
           play={false}
-          videoId={'lw069r6Z6H8'}
+          videoId={'CS1ppXSPsdk'}
         />
       </View>
       <View style={styles.vLine}/>
       <Text style={styles.title}>Giocatori Random</Text>
       <View style={styles.containerImage}>
-        <View style={styles.image}>{getImage(ImageType[selected[0]])}</View>
+        <View style={styles.image}>
+          {selected[0].image}
+          <Text style={{textAlign:'center'}}>{selected[0].name}</Text>
+        </View>
+
         <View style={styles.hLine}/>
-        <View style={styles.image}>{getImage(ImageType[selected[1]])}</View>
+        <View style={styles.image}>
+          {selected[1].image}
+          <Text style={{textAlign:'center'}}>{selected[1].name}</Text>
+        </View>
       </View>
     </ScrollView>
   );

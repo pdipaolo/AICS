@@ -16,7 +16,7 @@ const sponsorItemStyle = StyleSheet.create({
     flexDirection: 'row',
     minHeight: 100,
     paddingHorizontal: 32,
-    paddingVertical: 16,
+    paddingVertical: 0,
     borderRadius: 16,
     borderWidth: 1,
     shadowColor: "#000",
@@ -27,8 +27,8 @@ const sponsorItemStyle = StyleSheet.create({
     shadowOpacity: 0.30,
     shadowRadius: 4.65,   
     elevation: 8,
-    justifyContent: 'space-between',
-    zIndex: 1
+    justifyContent: 'center', //space-between
+    zIndex: 1,
   },
   leftView: {
     height:  '100%',

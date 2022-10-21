@@ -1,18 +1,102 @@
-{"stadium": [
-  {
-    "id": "stadium_1",
-    "name": "Partenope",
-    "description": "Campo Denza Via Posillipo 29",
-    "lat": "40.80045251352664",
-    "lng": "14.187075528912235",
-    "iamge": ""
-  },
-  {
-    "id": "stadium2",
-    "name": "Partenope",
-    "description": "Campo Denza Via Posillipo 29",
-    "lat": "40.80045251352664",
-    "lng": "14.187075528912235",
-    "iamge": ""
-  }
-]}
+{
+  "stadium": [
+    {
+      "id": "Dream_1",
+      "name": "AC Scampia",
+      "description": "Campo Denza Via Posillipo 29",
+      "lat": "40.80045251352664",
+      "lng": "14.187075528912235"
+    },
+    {
+      "id": "Dream_2",
+      "name": "Arci Napoli",
+      "description": "Campo Denza Via Posillipo 29",
+      "lat": "40.80045251352664",
+      "lng": "14.187075528912235"
+    },
+    {
+      "id": "Dream_3",
+      "name": "ASC San G. Calvizzano",
+      "description": "Campo Denza Via Posillipo 29",
+      "lat": "40.80045251352664",
+      "lng": "14.187075528912235"
+    },
+    {
+      "id": "Dream_4",
+      "name": "Atletico Neapolis",
+      "description": "Campo Denza Via Posillipo 29",
+      "lat": "40.80045251352664",
+      "lng": "14.187075528912235"
+    },
+    {
+      "id": "Dream_5",
+      "name": "Atletico San Lorenzo",
+      "description": "Campo Denza Via Posillipo 29",
+      "lat": "40.80045251352664",
+      "lng": "14.187075528912235"
+    },
+    {
+      "id": "Dream_6",
+      "name": "Napoli Random",
+      "description": "Campo Denza Via Posillipo 29",
+      "lat": "40.80045251352664",
+      "lng": "14.187075528912235"
+    },
+    {
+      "id": "Dream_7",
+      "name": "Napoli United",
+      "description": "Campo Denza Via Posillipo 29",
+      "lat": "40.80045251352664",
+      "lng": "14.187075528912235"
+    },
+    {
+      "id": "Dream_8",
+      "name": "P. San F.D'Assisi",
+      "description": "Campo Denza Via Posillipo 29",
+      "lat": "40.80045251352664",
+      "lng": "14.187075528912235"
+    },
+    {
+      "id": "Dream_9",
+      "name": "Partenope Lazzaroni",
+      "description": "Campo Denza Via Posillipo 29",
+      "lat": "40.80045251352664",
+      "lng": "14.187075528912235"
+    },
+    {
+      "id": "Dream_10",
+      "name": "Real Sergio Cantore",
+      "description": "Campo Denza Via Posillipo 29",
+      "lat": "40.80045251352664",
+      "lng": "14.187075528912235"
+    },
+    {
+      "id": "Dream_11",
+      "name": "Spi Ingegneria",
+      "description": "Campo Denza Via Posillipo 29",
+      "lat": "40.80045251352664",
+      "lng": "14.187075528912235"
+    },
+    {
+      "id": "Dream_12",
+      "name": "UTDBoys San Giorgio",
+      "description": "Campo Denza Via Posillipo 29",
+      "lat": "40.80045251352664",
+      "lng": "14.187075528912235"
+    },
+    {
+      "id": "Dream_13",
+      "name": "Vamos Eco",
+      "description": "Campo Denza Via Posillipo 29",
+      "lat": "40.80045251352664",
+      "lng": "14.187075528912235"
+    },
+    {
+      "id": "Dream_14",
+      "name": "Virtus Ottocalli",
+      "description": "Campo Denza Via Posillipo 29",
+      "lat": "40.80045251352664",
+      "lng": "14.187075528912235"
+    }
+  ]
+}

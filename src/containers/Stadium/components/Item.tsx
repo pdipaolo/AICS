@@ -7,7 +7,7 @@ import ItemStadium from "../types";
 
 import styles from "./styles";
 function Item (props : ItemStadium & {index: number}){
-  const {index, name, description, lat, lng} = props;
+  const {id, name, description, lat, lng} = props;
   const scheme = Platform.select({ ios: 'maps:0,0?q=', android: 'geo:0,0?q=' });
   const latLng = `${lat},${lng}`;
   const label = 'Stadio';
@@ -34,7 +34,7 @@ function Item (props : ItemStadium & {index: number}){
   <TouchableWithoutFeedback onPress={mapsAlert}>
     <View style={styles.container}>
       <View style={styles.image}>
-        {getImage(ImageType.Dream_1)}
+        {getImage(ImageType[id])}
       </View>
       <View style={styles.textView}>
         <Text style={styles.name}>{name}</Text>

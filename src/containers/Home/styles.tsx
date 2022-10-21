@@ -37,10 +37,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-evenly',
     marginTop:  16,
-    marginBottom: 16,
+    marginBottom: 32,
   },
   image: {
-    height: 150,
+    height: 130,
     width:  100
   },
   hLine: {

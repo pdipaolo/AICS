@@ -14,12 +14,16 @@ const headerStyle = StyleSheet.create({
     alignItems: "center"
   },
   text: {
-    flex: 50,
+    flex: 45,
     position: 'relative',
     left: 20
   },
   flex: {
-    flex: 10
+    flex: 8,
+    textAlign:'center'
+  },
+  posFlex: {
+    flex: 5
   }
 })
 

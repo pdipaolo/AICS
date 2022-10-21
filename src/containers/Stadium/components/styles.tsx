@@ -11,7 +11,8 @@ const itemStyle = StyleSheet.create({
   image: {
     flex: 30,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    padding: 8
   },
   textView: {
     display: "flex",

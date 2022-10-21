@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   text: {
-    fontSize: 32,
+    fontSize: 30,
     flex: 60,
     flexWrap: 'wrap',
     color: black

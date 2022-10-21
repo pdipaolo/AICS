@@ -4,10 +4,11 @@ import globalStyles from '../../../src/globalStyles/globalStyles';
 
 import SponsorItem from '../../components/SponsorItem';
 
-import json from '../../mock/mock.json';
+import SPONSOR from './constants';
 
   const Sponsor = () => {
-  const { sponsorItems } = json;
+  const { sponsorItems } = SPONSOR;
+  
     return (
       <ScrollView style={globalStyles.view}>
           {sponsorItems.map(item => <SponsorItem key={item.id} sponsorItems={item}/>)}

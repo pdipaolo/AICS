@@ -1,16 +1,19 @@
+import { ImageType } from "utils/getImage";
+
 type SponsorProps = {
   sponsorItems: sponsorItems;
 };
 
 type sponsorItems = {
   id: string | number,
+  link: string,
   item: Item,
   descriptionItem: descriptionItem
 };
 type Item = {
   title: string,
   subtitle: string,
-  image: string,
+  image: ImageType,
   style: SponsorStyle,
   textStyle: textStyle
 }

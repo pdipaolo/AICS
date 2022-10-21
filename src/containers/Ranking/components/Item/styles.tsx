@@ -12,20 +12,26 @@ const itemStyle = StyleSheet.create({
     alignItems: "center",
   },
   view :{
-    flex: 50,
+    flex: 45,
     flexDirection: 'row',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   subView: {
-    height:40,
-    width: 80
+    height:30,
+    width: 55
   },
-  text : {
-    flex: 10,
+  text : {
+    flex: 8,
+    textAlign:'center'
+  },
+  textBoldPos: {
+    flex: 5,
+    fontWeight: 'bold'
   },
   textBold: {
-    flex: 10,
-    fontWeight: 'bold'
+    flex: 8,
+    fontWeight: 'bold',
+    textAlign:'center'
   }
 })
 

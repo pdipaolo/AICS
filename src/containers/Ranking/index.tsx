@@ -15,8 +15,7 @@ const Ranking = () => {
   const {ranking} = ranking_mock;
   const sortRanking = ranking.sort( (a,b) => (a.points < b.points) ? 1 : -1 )
   const render = ( { item, index }: { item: ItemType, index: number }) => {
-    const { id, name, total_match, points, gol_scores, gol_conceded } = item;
-    return <Item index={index} id={id} name={name} total_match={total_match} points={points} gol_scores={gol_scores} gol_conceded={gol_conceded} />
+    return <Item index={index} item={item} />
 };
 
   return (

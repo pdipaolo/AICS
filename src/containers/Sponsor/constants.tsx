@@ -1,4 +1,6 @@
-{
+import { ImageType } from "../../utils/getImage";
+
+const SPONSOR = {
   "sponsorItems": [
     {
       "id": "sponsor_1",
@@ -6,7 +8,7 @@
       "item": {
         "title": "My Trip To",
         "subtitle": "Main Sponsor",
-        "image": "https://reactnative.dev/img/tiny_logo.png",
+        "image": ImageType.Sponsor_1,
         "style": {
           "backgroundColor": "#000",
           "borderColor": "#fff"
@@ -33,7 +35,7 @@
       "item": {
         "title": "Iconacasa",
         "subtitle": "Main Sponsor",
-        "image": "https://reactnative.dev/img/tiny_logo.png",
+        "image": ImageType.Sponsor_2,
         "style": {
           "backgroundColor": "#fff",
           "borderColor": "#000"
@@ -59,7 +61,7 @@
       "item": {
         "title": "Juni",
         "subtitle": "Main Sponsor",
-        "image": "https://reactnative.dev/img/tiny_logo.png",
+        "image": ImageType.Sponsor_3,
         "style": {
           "backgroundColor": "#000",
           "borderColor": "#fff"
@@ -85,7 +87,7 @@
       "item": {
         "title": "MyTripNaples",
         "subtitle": "Main Sponsor",
-        "image": "https://reactnative.dev/img/tiny_logo.png",
+        "image": ImageType.Sponsor_4,
         "style": {
           "backgroundColor": "#fff",
           "borderColor": "#000"
@@ -111,7 +113,7 @@
       "item": {
         "title": "MyTipVesuvio",
         "subtitle": "Main Sponsor",
-        "image": "https://reactnative.dev/img/tiny_logo.png",
+        "image": ImageType.Sponsor_5,
         "style": {
           "backgroundColor": "#000",
           "borderColor": "#fff"
@@ -137,7 +139,7 @@
       "item": {
         "title": "Assoutenti",
         "subtitle": "Main Sponsor",
-        "image": "https://reactnative.dev/img/tiny_logo.png",
+        "image": ImageType.Sponsor_6,
         "style": {
           "backgroundColor": "#fff",
           "borderColor": "#000"
@@ -158,4 +160,6 @@
       }
     }
   ]
-}
+};
+
+export default SPONSOR;

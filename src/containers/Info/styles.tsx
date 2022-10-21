@@ -6,8 +6,10 @@ const styles = StyleSheet.create({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 4,
-    padding: 16,
+    marginTop: 0,
+    paddingBottom: 16,
+    paddingRight: 16,
+    paddingLeft: 16,
     borderTopWidth: 1,
     borderTopColor: grey
   },

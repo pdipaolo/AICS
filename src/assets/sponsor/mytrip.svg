@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1155px" height="1164px" viewBox="0 0 1155 1164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>MyTripTo</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MyTripTo">
+            <polygon id="Fill-1" fill="#000000" points="0 0 1155 0 1155 1164 0 1164"></polygon>
+            <g id="Group-12" transform="translate(287.000000, 235.273438)">
+                <g id="Group-3" transform="translate(80.383300, 28.447266)" fill="#FFFFFF" font-family="LucidaGrande, Lucida Grande" font-size="221" font-weight="normal">
+                    <text id="TR">
+                        <tspan x="5.68434189e-14" y="214">TR</tspan>
+                    </text>
+                    <text id="I">
+                        <tspan x="294.59299" y="214">I</tspan>
+                    </text>
+                    <text id="P">
+                        <tspan x="365.092013" y="214">P</tspan>
+                    </text>
+                </g>
+                <text id="T" font-family="LucidaGrande, Lucida Grande" font-size="221" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="289.9027" y="416.966791">T</tspan>
+                </text>
+                <text id="MY" font-family="LucidaGrande, Lucida Grande" font-size="104" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="0" y="101">MY</tspan>
+                </text>
+                <path d="M514.518545,310.193183 C491.535635,298.291175 463.463125,302.908454 445.502855,321.544684 C427.542592,340.180915 423.9652,368.404761 436.707875,390.932624 L486.469895,477.106453 L536.231925,390.932563 C536.801745,390.013557 537.340935,389.094489 537.855585,388.120338 C552.935045,360.157538 542.485585,325.264747 514.518425,310.193244 L514.518545,310.193183 Z M486.837455,397.678168 C465.770255,397.678168 448.691825,380.599799 448.691825,359.532569 C448.691825,338.465308 465.770255,321.386939 486.837455,321.386939 C507.904715,321.386939 524.983145,338.465308 524.983145,359.532569 C524.983145,380.599799 507.904715,397.678168 486.837455,397.678168 Z" id="Fill-6" fill="#FFFFFF"></path>
+                <path d="M510.983475,451.436222 L511.902415,451.687443 C539.889725,455.234867 559.893875,464.553776 559.893875,475.477909 C559.893875,489.477787 527.188795,500.830753 486.837535,500.830753 C446.486275,500.830753 413.775097,489.477787 413.775097,475.477909 C413.775097,464.529239 433.785355,455.259342 461.766615,451.687443 L462.691785,451.436222 C423.792495,455.657657 395.16798,469.816715 395.16798,486.622562 C395.16798,506.786014 436.217725,523.132389 486.837655,523.132389 C537.457595,523.132389 578.501175,506.786014 578.501175,486.622562 C578.501175,469.79224 549.882645,455.657657 510.983475,451.436222 Z" id="Fill-8" fill="#FFFFFF"></path>
+                <g id="Group-11" transform="translate(53.000000, 572.861328)" font-family="LucidaGrande, Lucida Grande" font-size="33" font-weight="normal">
+                    <text id="SC" fill="#FFFFFF">
+                        <tspan x="0" y="32">SC</tspan>
+                    </text>
+                    <text id="O" fill="#FFFFFF">
+                        <tspan x="43.527" y="32">O</tspan>
+                    </text>
+                    <text id="P" fill="#FFFFFF">
+                        <tspan x="71.213996" y="32">P</tspan>
+                    </text>
+                    <text id="R" fill="#FFFFFF">
+                        <tspan x="94.578002" y="32">R</tspan>
+                    </text>
+                    <text id="I" fill="#FFFFFF">
+                        <tspan x="118.436996" y="32">I</tspan>
+                    </text>
+                    <text id="," fill="#FFFFFF">
+                        <tspan x="128.402999" y="32">,</tspan>
+                    </text>
+                    <text id="-"></text>
+                    <text id="P" fill="#FFFFFF">
+                        <tspan x="144.044998" y="32">P</tspan>
+                    </text>
+                    <text id="R" fill="#FFFFFF">
+                        <tspan x="167.408996" y="32">R</tspan>
+                    </text>
+                    <text id="E" fill="#FFFFFF">
+                        <tspan x="191.268005" y="32">E</tspan>
+                    </text>
+                    <text id="N" fill="#FFFFFF">
+                        <tspan x="213.345001" y="32">N</tspan>
+                    </text>
+                    <text id="O" fill="#FFFFFF">
+                        <tspan x="240.173996" y="32">O</tspan>
+                    </text>
+                    <text id="T" fill="#FFFFFF">
+                        <tspan x="267.531006" y="32">T</tspan>
+                    </text>
+                    <text id="A" fill="#FFFFFF">
+                        <tspan x="285.317993" y="32">A</tspan>
+                    </text>
+                    <text id="," fill="#FFFFFF">
+                        <tspan x="310.101013" y="32">,</tspan>
+                    </text>
+                    <text id="-"></text>
+                    <text id="V" fill="#FFFFFF">
+                        <tspan x="325.743011" y="32">V</tspan>
+                    </text>
+                    <text id="I" fill="#FFFFFF">
+                        <tspan x="348.282012" y="32">I</tspan>
+                    </text>
+                    <text id="A" fill="#FFFFFF">
+                        <tspan x="358.247985" y="32">A</tspan>
+                    </text>
+                    <text id="G" fill="#FFFFFF">
+                        <tspan x="381.579009" y="32">G</tspan>
+                    </text>
+                    <text id="G" fill="#FFFFFF">
+                        <tspan x="407.088012" y="32">G</tspan>
+                    </text>
+                    <text id="I" fill="#FFFFFF">
+                        <tspan x="432.596984" y="32">I</tspan>
+                    </text>
+                    <text id="A" fill="#FFFFFF">
+                        <tspan x="442.562987" y="32">A</tspan>
+                    </text>
+                    <text id="!" fill="#FFFFFF">
+                        <tspan x="466.223998" y="32">!</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

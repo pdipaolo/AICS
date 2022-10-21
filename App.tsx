@@ -49,7 +49,8 @@ const App = () => {
                 break;
             }
           },
-            headerTitle: route.name === ROUTE.HOME ? (() => getImage(ImageType.Logo_1)) : undefined,
+            headerTitle: route.name === ROUTE.HOME ? (() => getImage(ImageType.Logo_2)) : undefined,
+            headerTitleAlign: 'center',
             tabBarActiveTintColor: activeTintColor,
             tabBarInactiveTintColor: inactiveTintColor,
             tabBarStyle: [
@@ -62,8 +63,8 @@ const App = () => {
       >
         <Tab.Screen name="Home" component={Home} />
         <Tab.Screen name="Sponsor" component={Sponsor} />
-        <Tab.Screen name="Ranking" component={Ranking} />
-        <Tab.Screen name="Stadium" component={Stadium} />
+        <Tab.Screen name="Ranking" component={Ranking} options={{ title: "Classifica" }}/>
+        <Tab.Screen name="Stadium" component={Stadium} options={{ title: "Stadio" }}/>
         <Tab.Screen name="Info" component={Info} />
       </Tab.Navigator>
     </NavigationContainer>
