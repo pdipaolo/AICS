@@ -53,6 +53,16 @@ const getImage = (value: ImageType) => {
       return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_13.png')} />
     case ImageType.Dream_14:
       return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_14.png')} />
+    case ImageType.Dream_15:
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_15.png')} />
+    case ImageType.Dream_16:
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_16.png')} />
+    case ImageType.Dream_17:
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_17.png')} />
+    case ImageType.Dream_18:
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_18.png')} />
+    case ImageType.Dream_19:
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_19.png')} />
     case ImageType.Player_1:
       return <Player1 height="100%" widht="100%" />
     case ImageType.Player_2:
@@ -115,6 +125,9 @@ enum ImageType {
   Dream_14,
   Dream_15,
   Dream_16,
+  Dream_17,
+  Dream_18,
+  Dream_19,
   Player_1,
   Player_2,
   Player_3,

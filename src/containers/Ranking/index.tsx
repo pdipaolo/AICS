@@ -13,7 +13,7 @@ import globalStyles from '../../../src/globalStyles/globalStyles';
 
 const Ranking = () => {
   const {ranking} = ranking_mock;
-  const sortRanking = ranking.sort( (a,b) => (a.points < b.points) ? 1 : -1 )
+  const sortRanking = ranking.sort( (a,b) => (a.points < b.points || a.name > b.name) ? 1 : -1 )
   const render = ( { item, index }: { item: ItemType, index: number }) => {
     return <Item index={index} item={item} />
 };

@@ -3,100 +3,136 @@
     {
       "id": "Dream_1",
       "name": "AC Scampia",
-      "description": "Campo Denza Via Posillipo 29",
-      "lat": "40.80045251352664",
-      "lng": "14.187075528912235"
+      "description": "Stornaiuolo",
+      "lat": "40.90901",
+      "lng": "14.25259"
     },
     {
       "id": "Dream_2",
       "name": "Arci Napoli",
-      "description": "Campo Denza Via Posillipo 29",
-      "lat": "40.80045251352664",
-      "lng": "14.187075528912235"
+      "description": "Ciliegie",
+      "lat": "40.89021",
+      "lng": "14.21903"
     },
     {
       "id": "Dream_3",
       "name": "ASC San G. Calvizzano",
-      "description": "Campo Denza Via Posillipo 29",
-      "lat": "40.80045251352664",
-      "lng": "14.187075528912235"
+      "description": "Sport Village Academy",
+      "lat": "40.91813701771514",
+      "lng": "14.161923932685198"
     },
     {
       "id": "Dream_4",
-      "name": "Atletico Neapolis",
-      "description": "Campo Denza Via Posillipo 29",
-      "lat": "40.80045251352664",
-      "lng": "14.187075528912235"
+      "name": "ASD Partenope L.U'",
+      "description": "Stadio Francesco Denza",
+      "lat": "40.80063",
+      "lng": "14.18696"
     },
     {
       "id": "Dream_5",
-      "name": "Atletico San Lorenzo",
-      "description": "Campo Denza Via Posillipo 29",
-      "lat": "40.80045251352664",
-      "lng": "14.187075528912235"
+      "name": "Atletico Neapolis",
+      "description": "San Rocco",
+      "lat": "40.8810834",
+      "lng": "14.2358927"
     },
     {
       "id": "Dream_6",
-      "name": "Napoli Random",
-      "description": "Campo Denza Via Posillipo 29",
-      "lat": "40.80045251352664",
-      "lng": "14.187075528912235"
+      "name": "Atletico San Lorenzo",
+      "description": "Ciliegie",
+      "lat": "40.89021",
+      "lng": "14.21903"
     },
     {
       "id": "Dream_7",
-      "name": "Napoli United",
-      "description": "Campo Denza Via Posillipo 29",
-      "lat": "40.80045251352664",
-      "lng": "14.187075528912235"
+      "name": "FC San Lorenzo",
+      "description": "Green Sport",
+      "lat": "40.825469525011336",
+      "lng": "14.146930921985831"
     },
     {
       "id": "Dream_8",
-      "name": "P. San F.D'Assisi",
-      "description": "Campo Denza Via Posillipo 29",
-      "lat": "40.80045251352664",
-      "lng": "14.187075528912235"
+      "name": "Feb Soccer",
+      "description": "Centro Ester",
+      "lat": "40.83820053653435",
+      "lng": "14.323070094996533"
     },
     {
       "id": "Dream_9",
-      "name": "Partenope Lazzaroni",
-      "description": "Campo Denza Via Posillipo 29",
-      "lat": "40.80045251352664",
-      "lng": "14.187075528912235"
+      "name": "FC Casavatore",
+      "description": "Stornaiuolo",
+      "lat": "40.90901",
+      "lng": "14.25259"
     },
     {
       "id": "Dream_10",
-      "name": "Real Sergio Cantore",
-      "description": "Campo Denza Via Posillipo 29",
-      "lat": "40.80045251352664",
-      "lng": "14.187075528912235"
+      "name": "Fc Scampia",
+      "description": "Grillo",
+      "lat": "40.88557081466111",
+      "lng": "14.191824721990185"
     },
     {
       "id": "Dream_11",
-      "name": "Spi Ingegneria",
-      "description": "Campo Denza Via Posillipo 29",
-      "lat": "40.80045251352664",
-      "lng": "14.187075528912235"
+      "name": "Virtus Ottocalli",
+      "description": "Centro Franco Festa",
+      "lat": "40.828488068225575",
+      "lng": "14.316622079402553"
     },
     {
       "id": "Dream_12",
-      "name": "UTDBoys San Giorgio",
-      "description": "Campo Denza Via Posillipo 29",
-      "lat": "40.80045251352664",
-      "lng": "14.187075528912235"
+      "name": "Napoli Random",
+      "description": "Green Sport",
+      "lat": "40.825469525011336",
+      "lng": "14.146930921985831"
     },
     {
       "id": "Dream_13",
-      "name": "Vamos Eco",
-      "description": "Campo Denza Via Posillipo 29",
-      "lat": "40.80045251352664",
-      "lng": "14.187075528912235"
+      "name": "Real Sergio Cantore",
+      "description": "Campo Parlati",
+      "lat": "40.7766214439044",
+      "lng": "14.424346050817306"
     },
     {
       "id": "Dream_14",
-      "name": "Virtus Ottocalli",
-      "description": "Campo Denza Via Posillipo 29",
-      "lat": "40.80045251352664",
-      "lng": "14.187075528912235"
+      "name": "P. San F.D'Assisi",
+      "description": "Sport Village Academy",
+      "lat": "40.91813701771514",
+      "lng": "14.161923932685198"
+    },
+    {
+      "id": "Dream_15",
+      "name": "Spi Ingegneria",
+      "description": "Ciliegie",
+      "lat": "40.89021",
+      "lng": "14.21903"
+    },
+    {
+      "id": "Dream_16",
+      "name": "SSC S. Ferdinando Nap.",
+      "description": "La Loggetta",
+      "lat": "40.83727183892252",
+      "lng": "14.19637442383141"
+    },
+
+    {
+      "id": "Dream_17",
+      "name": "UTDBoys San Giorgio",
+      "description": "Centro Franco Festa",
+      "lat": "40.828488068225575",
+      "lng": "14.316622079402553"
+    },
+    {
+      "id": "Dream_18",
+      "name": "Vamos Eco",
+      "description": "Comunale di Brusciano",
+      "lat": "40.90772919496037",
+      "lng": "14.423659587871857"
+    },
+    {
+      "id": "Dream_19",
+      "name": "Napoli United",
+      "description": "Ciliegie",
+      "lat": "40.89021",
+      "lng": "14.21903"
     }
   ]
 }
