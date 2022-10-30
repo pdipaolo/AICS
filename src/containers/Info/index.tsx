@@ -26,10 +26,10 @@ const Info = () => {
         email='info@aicsnapolicalcio.it'
       />
       <View style={styles.site}>
-        <Text style={styles.text}>Visita anche la pagina Web</Text>
+        <Text style={styles.text}>In arrivo anche la pagina Web</Text>
         <Text style={styles.subText}>Tutti gli aggiornamenti, news e risultati della settimana del campionato Aics, li puoi trovare solo sulla pagina WEB Ufficiale.</Text>
-        <TouchableOpacity style={styles.button} onPress={() => Linking.openURL(`http://${url}`)}>
-          <Text style={styles.buttonText}>{url}</Text>
+        <TouchableOpacity style={styles.button} onPress={() => Linking.openURL(`http://${url}`)} disabled={true}>
+          <Text style={styles.buttonText}>In Arrivo</Text>
         </TouchableOpacity>
       </View>
     </ScrollView>

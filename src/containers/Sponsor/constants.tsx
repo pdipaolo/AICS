@@ -19,7 +19,7 @@ const SPONSOR = {
         }
       },
       "descriptionItem": {
-        "text": "La nostra missione è creare viaggi che le persone ameranno e permettere a loro di creare ricordi da tener stretto tutta la vita.",
+        "text": "La nostra missione è creare viaggi che le persone ameranno e permettere loro di creare ricordi da tener stretti tutta la vita.",
         "style": {
           "backgroundColor": "#aaa",
           "borderColor": "#fff"

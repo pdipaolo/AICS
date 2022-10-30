@@ -26,43 +26,43 @@ import Mister3 from '../assets/players/Mister_3.svg';
 const getImage = (value: ImageType) => {
   switch (value) {
     case ImageType.Dream_1:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_1.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_1.png')} />
     case ImageType.Dream_2:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_2.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_2.png')} />
     case ImageType.Dream_3:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_3.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_3.png')} />
     case ImageType.Dream_4:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_4.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_4.png')} />
     case ImageType.Dream_5:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_5.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_5.png')} />
     case ImageType.Dream_6:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_6.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_6.png')} />
     case ImageType.Dream_7:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_7.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_7.png')} />
     case ImageType.Dream_8:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_8.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_8.png')} />
     case ImageType.Dream_9:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_9.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_9.png')} />
     case ImageType.Dream_10:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_10.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_10.png')} />
     case ImageType.Dream_11:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_11.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_11.png')} />
     case ImageType.Dream_12:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_12.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_12.png')} />
     case ImageType.Dream_13:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_13.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_13.png')} />
     case ImageType.Dream_14:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_14.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_14.png')} />
     case ImageType.Dream_15:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_15.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_15.png')} />
     case ImageType.Dream_16:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_16.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_16.png')} />
     case ImageType.Dream_17:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_17.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_17.png')} />
     case ImageType.Dream_18:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_18.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_18.png')} />
     case ImageType.Dream_19:
-      return <Image style={{ height: '100%', width: '100%', resizeMode: 'center' }} source={require('../assets/dreams/dream_19.png')} />
+      return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_19.png')} />
     case ImageType.Player_1:
       return <Player1 height="100%" widht="100%" />
     case ImageType.Player_2:
