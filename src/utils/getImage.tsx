@@ -1,5 +1,7 @@
 import React from 'react';
 import { Image } from 'react-native';
+import FastImage from 'react-native-fast-image'
+
 import Phone from '../assets/phone.svg';
 import Mail from '../assets/mail.svg';
 import Logo_Juni from '../assets/juniblack.svg';
@@ -11,17 +13,6 @@ import Sponsor_3 from '../assets/sponsor/juninow.svg';
 import Sponsor_4 from '../assets/sponsor/mytripnaples.svg';
 import Sponsor_5 from '../assets/sponsor/mytripvesuvius.svg';
 import Sponsor_6 from '../assets/sponsor/assoutenti.svg';
-
-import Player1 from '../assets/players/Player_1.svg';
-import Player2 from '../assets/players/Player_2.svg';
-import Player3 from '../assets/players/Player_3.svg';
-import Player4 from '../assets/players/Player_4.svg';
-import Player5 from '../assets/players/Player_5.svg';
-import Player6 from '../assets/players/Player_6.svg';
-import Mister1 from '../assets/players/Mister_1.svg';
-import Mister2 from '../assets/players/Mister_2.svg';
-import Mister3 from '../assets/players/Mister_3.svg';
-
 
 const getImage = (value: ImageType) => {
   switch (value) {
@@ -64,23 +55,23 @@ const getImage = (value: ImageType) => {
     case ImageType.Dream_19:
       return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_19.png')} />
     case ImageType.Player_1:
-      return <Player1 height="100%" widht="100%" />
+      return <FastImage style={{ width: "100%", height: "100%" }} source={require('../assets/players/Player_1.png')} resizeMode={FastImage.resizeMode.contain} /> 
     case ImageType.Player_2:
-      return <Player2 height="100%" widht="100%" />
+      return <FastImage style={{ width: "100%", height: "100%" }} source={require('../assets/players/Player_2.png')} resizeMode={FastImage.resizeMode.contain} /> 
     case ImageType.Player_3:
-      return <Player3 height="100%" widht="100%" />
+      return <FastImage style={{ width: "100%", height: "100%" }} source={require('../assets/players/Player_3.png')} resizeMode={FastImage.resizeMode.contain} /> 
     case ImageType.Player_4:
-      return <Player4 height="100%" widht="100%" />
+      return <FastImage style={{ width: "100%", height: "100%" }} source={require('../assets/players/Player_4.png')} resizeMode={FastImage.resizeMode.contain} /> 
     case ImageType.Player_5:
-      return <Player5 height="100%" widht="100%" />
+      return <FastImage style={{ width: "100%", height: "100%" }} source={require('../assets/players/Player_5.png')} resizeMode={FastImage.resizeMode.contain} /> 
     case ImageType.Player_6:
-      return <Player6 height="100%" widht="100%" />
+      return <FastImage style={{ width: "100%", height: "100%" }} source={require('../assets/players/Player_6.png')} resizeMode={FastImage.resizeMode.contain} /> 
     case ImageType.Mister_1:
-      return <Mister1 height="100%" widht="100%" />
+      return <FastImage style={{ width: "100%", height: "100%" }} source={require('../assets/players/Mister_1.png')} resizeMode={FastImage.resizeMode.contain} /> 
     case ImageType.Mister_2:
-      return <Mister2 height="100%" widht="100%" />
+      return <FastImage style={{ width: "100%", height: "100%" }} source={require('../assets/players/Mister_2.png')} resizeMode={FastImage.resizeMode.contain} /> 
     case ImageType.Mister_3:
-      return <Mister3 height="100%" widht="100%" />
+      return <FastImage style={{ width: "100%", height: "100%" }} source={require('../assets/players/Mister_3.png')} resizeMode={FastImage.resizeMode.contain} /> 
     case ImageType.Mail:
       return <Mail height={20} widht={20} fill={"white"} />
     case ImageType.Phone:

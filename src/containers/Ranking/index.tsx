@@ -36,7 +36,7 @@ async function getApi() {
       'https://classifica-aics-2022-default-rtdb.europe-west1.firebasedatabase.app/ranking.json',
     );
     let responseJson = await response.json();
-    const sortRanking = responseJson.sort( (a: { points: number; name: number; },b: { points: number; name: number; }) => (a.name > b.name || a.points < b.points) ? 1 : -1 );
+    const sortRanking = responseJson.sort( (a: { points: number; name: string; },b: { points: number; name: string; }) => ( b.points - a.points || a.name.localeCompare(b.name)));
     setRanking(sortRanking);
   } catch (error) {
     console.error(error);
@@ -53,7 +53,6 @@ async function getApi() {
         stickyHeaderIndices={[0]}
         ItemSeparatorComponent={() => (<View style={styles.separator} />
         )}
-
       />
   );
 }; 
