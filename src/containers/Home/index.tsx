@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   ScrollView,
   Text,
@@ -10,6 +10,7 @@ import YoutubePlayer from 'react-native-youtube-iframe';
 import PLAYERS from './constants';
 import globalStyles from '../../globalStyles/globalStyles';
 import styles from './styles';
+import SplashScreen from 'react-native-splash-screen'
 
 const Home = () => {
 
@@ -17,6 +18,9 @@ const Home = () => {
   let selected = shuffled.slice(0, 2);
   const windowWidth = Dimensions.get('window').width * 0.8;
 
+  useEffect(()=>{
+    SplashScreen.hide();
+  },[])
   return (
     <ScrollView style={globalStyles.view}>
       <Text style={styles.title}>Video</Text>
