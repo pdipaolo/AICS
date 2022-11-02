@@ -81,15 +81,15 @@ const getImage = (value: ImageType) => {
     case ImageType.Logo_2:
       return <Logo_2 height="100%" widht="100%" />
     case ImageType.Sponsor_1:
-      return <Sponsor_1 height="200" widht="200" />
+      return <FastImage style={{ width: 350, height: 200 }} source={require('../assets/sponsor/mytripto.png')} resizeMode={FastImage.resizeMode.contain} />
     case ImageType.Sponsor_2:
       return <Sponsor_2 height="60" widht="50" />
     case ImageType.Sponsor_3:
       return <Sponsor_3 height="60" widht="60" />
     case ImageType.Sponsor_4:
-      return <Sponsor_4 height="200" widht="200" />
+      return <FastImage style={{ width: 350, height: 200 }} source={require('../assets/sponsor/mytripnaples.png')} resizeMode={FastImage.resizeMode.contain} />
     case ImageType.Sponsor_5:
-      return <Sponsor_5 height="200" widht="200" />
+      return <FastImage style={{ width: 350, height: 200 }} source={require('../assets/sponsor/mytripvesuvius.png')} resizeMode={FastImage.resizeMode.contain} />
     case ImageType.Sponsor_6:
       return <Sponsor_6 height="200" widht="200" />
     default:
