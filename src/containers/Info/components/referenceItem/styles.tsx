@@ -22,12 +22,13 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
   },
   text: {
-    fontSize: 16,
+    fontSize: 15,
     flex: 60,
     flexWrap: 'wrap',
     textAlign: 'left',
     color: black,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    maxWidth: 230,
   },
   subText: {
     fontSize: 9,

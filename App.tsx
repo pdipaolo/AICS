@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <NavigationContainer >
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+      <StatusBar barStyle={"dark-content"} backgroundColor={"transparent"}/>
       <Tab.Navigator
         screenOptions={({ route }) => ({
           tabBarIcon: ({ color }) => {
