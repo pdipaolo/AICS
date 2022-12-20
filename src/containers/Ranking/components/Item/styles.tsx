@@ -26,7 +26,8 @@ const itemStyle = StyleSheet.create({
   },
   textBoldPos: {
     flex: 5,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    fontSize: 13
   },
   textBold: {
     flex: 8,

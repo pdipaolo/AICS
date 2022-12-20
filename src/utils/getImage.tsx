@@ -7,11 +7,9 @@ import Mail from '../assets/mail.svg';
 import Logo_Juni from '../assets/juniblack.svg';
 import Logo_2 from '../assets/logo-2.svg';
 
-import Sponsor_1 from '../assets/sponsor/mytrip.svg';
 import Sponsor_2 from '../assets/sponsor/iconacasa.svg';
 import Sponsor_3 from '../assets/sponsor/juninow.svg';
-import Sponsor_4 from '../assets/sponsor/mytripnaples.svg';
-import Sponsor_5 from '../assets/sponsor/mytripvesuvius.svg';
+
 import Sponsor_6 from '../assets/sponsor/assoutenti.svg';
 
 const getImage = (value: ImageType) => {
@@ -54,6 +52,8 @@ const getImage = (value: ImageType) => {
       return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_18.png')} />
     case ImageType.Dream_19:
       return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_19.png')} />
+      case ImageType.Dream_20:
+        return <Image style={{ height: '100%', width: '100%', resizeMode: 'contain' }} source={require('../assets/dreams/dream_20.png')} />
     case ImageType.Player_1:
       return <FastImage style={{ width: "100%", height: "100%" }} source={require('../assets/players/Player_1.png')} resizeMode={FastImage.resizeMode.contain} /> 
     case ImageType.Player_2:
@@ -119,6 +119,7 @@ enum ImageType {
   Dream_17,
   Dream_18,
   Dream_19,
+  Dream_20,
   Player_1,
   Player_2,
   Player_3,
